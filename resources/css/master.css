@@ -12,10 +12,8 @@ html{
   margin: 0px;
   padding: 0px;
 }
-body{
-  margin: 0px;
-  padding: 0px;
-}
+
+/* Header and Nav */
 .navbar a{
   color: white;
   font-weight: bold;
@@ -34,10 +32,12 @@ body{
 .logo-nav img{
   margin-left: 10px;
 }
+
+/* Mission */
 #mission{
   height: 700px;
   background-image: url(../images/mission-background.jpg);
-  width: 1200px;
+  max-width: 1200px;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -49,5 +49,41 @@ body{
 .img-content{
   background-color: black;
   width: 1200px;
-  height:100px;
+  height:120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Tea of the Month */
+#tea-month{
+  margin: 50px auto;
+}
+.featured-heading{
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.featured{
+  margin: 0 auto;
+  display: flex;
+  min-height: 500px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tea{
+  margin:0 10px;
+}
+
+/* Locations */
+#locations{
+  height: 500px;
+  background-image: url(../images/locations-background.jpg);
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
 }
