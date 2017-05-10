@@ -12,6 +12,10 @@ html{
   margin: 0px;
   padding: 0px;
 }
+.content,.footer{
+  position: relative;
+  top:69px;
+}
 
 /* Header and Nav */
 .navbar a{
@@ -42,10 +46,7 @@ html{
   align-items: center;
   margin: 0 auto;
 }
-.content{
-  position: relative;
-  top:69px;
-}
+
 .img-content{
   background-color: black;
   width: 1200px;
@@ -64,7 +65,7 @@ html{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .featured{
   margin: 0 auto;
@@ -86,4 +87,23 @@ html{
   display: flex;
   align-items: center;
   margin: 0 auto;
+  flex-direction: column;
+  justify-content:center;
+}
+.locations-heading{
+  margin-bottom: 15px;
+}
+.locations-content{
+  display: flex;
+}
+.container-location{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0 20px;
+  padding: 10px 0;
+  height: 240px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
